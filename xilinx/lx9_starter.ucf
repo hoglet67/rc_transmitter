@@ -1,0 +1,10 @@
+# 27MHz main clock domain
+NET "clock" TNM_NET = clk_period_grp_27;
+TIMESPEC TS_clk_period_27 = PERIOD "clk_period_grp_27" 18.00ns HIGH;
+
+NET "clock"        LOC = "P84"  | IOSTANDARD = LVCMOS33 ;
+NET "sw1"          LOC = "P133" | IOSTANDARD = LVCMOS33 ;
+NET "sw2"          LOC = "P132" | IOSTANDARD = LVCMOS33 ;
+NET "sw3"          LOC = "P131" | IOSTANDARD = LVCMOS33 ;
+NET "transmit"     LOC = "P94"  | IOSTANDARD = LVCMOS33 ;
+NET "rf"           LOC = "P95"  | IOSTANDARD = LVCMOS33 ;

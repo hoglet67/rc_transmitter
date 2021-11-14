@@ -1,0 +1,6 @@
+working/
+iseconfig/
+#*
+*~
+a.out
+dump.vcd
